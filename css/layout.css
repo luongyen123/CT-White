@@ -1,0 +1,61 @@
+body{
+    color: #1A1A1A;
+}
+header a {
+    color: #1A1A1A;
+}
+.menu a {
+    color: #1A1A1A;
+}
+.cover-container{
+    background-color: #FFFFFF;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+}
+.logo{
+    width: 11.563rem;
+    height: 7.086rem;
+    margin-top: 3rem;
+    margin-bottom: 0
+}
+.menu-content{
+    font-size: 16px;
+    font-family: 'Noto Sans', serif;
+    line-height: 24px;
+    margin-bottom: 1.313rem;
+    margin-top: 2.481rem;
+}
+footer .menu {
+    margin-top: 3.125rem;
+    margin-bottom: 8.5rem;
+    font-size: 16px;
+    line-height: 24px;
+}
+.menu .copyright{
+    margin-top: 1.188rem;
+    font-size: 13px;
+}
+.logo-footer{
+    margin-top: 3.469rem;
+}
+@media (min-width: 992px) {
+    .cover-container{
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+    .logo{
+        margin-top: 3.310rem;
+        margin-bottom: 1.7rem;
+    }
+    .menu-content{
+        margin-top: 6.85rem;
+        margin-bottom: 3.8rem;
+    }
+    footer .menu {
+        margin-top: 6.313rem;
+        margin-bottom: 7.25rem;
+    }
+    .logo-footer{
+        margin-top: 3.469rem;
+    }
+}

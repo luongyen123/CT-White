@@ -1,0 +1,291 @@
+body{
+    font-family: 'Noto Sans Medium', serif;
+}
+hr {
+    background-color: #434343;
+}
+.news-content{
+    margin-top: 1.081rem;
+    font-size: 13px;
+    font-family: 'Noto Sans', serif;
+    line-height: 1.875rem;
+}
+.news-button{
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Noto Sans', serif;
+    background-color: #1A1A1A;
+    border: none;
+    padding: 0.375rem 1.3125rem;
+    border-radius: 5px;
+    display: block;
+    margin: 0.625rem auto 0 auto;
+}
+.banner img{
+    width: 100%;
+    height: 15.063rem;
+    object-fit: cover;
+    object-position: center;
+}
+.creative-block{
+    margin-top: 2.231rem;
+}
+.creative-text{
+    font-family: 'Noto Sans', serif;
+    font-size: 23px;
+}
+.new-border{
+    /*border-bottom: 2px solid #FFFFFF;*/
+}
+.section2{
+    margin-top: 2.481rem;
+}
+.section-label{
+    padding-top: 0.644rem;
+    padding-bottom: 0.831rem;
+}
+.content{
+    padding-top: 1.313rem;
+    padding-bottom: 1.688rem;
+}
+.service1{
+    background-image: url("../images/people.png");
+    background-size: cover;
+    border-radius: 25px;
+}
+.service2{
+    background-image: url("../images/Group 430.png ");
+    border-radius: 25px;
+    background-size: cover;
+}
+.service img{
+    margin-top: 2.425rem;
+}
+.service p {
+    font-size: 16px;
+    font-family: 'Noto Sans', serif;
+    margin-top: 0.625rem;
+    margin-bottom: 2.356rem;
+    line-height: 23px;
+}
+.plus {
+    width: 3.059rem;
+    height: 3.059rem;
+    position: absolute;
+    left: 50%; /* this and below code for excellent centered */
+    transform:translateX(-50%);
+    z-index:2;
+    top:46%
+}
+.service3{
+    background-image: url("../images/Group 429.png");
+    /*border: dotted;*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-position: center;
+    border-bottom: none;
+}
+.service4{
+    /*border: dotted;*/
+    background-image: url("../images/Rectangle 66.png");
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+}
+.service h4{
+    margin-top: 1.263rem;
+    font-size: 18px;
+    line-height: 20px;
+}
+.service h5 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.point-mobile{
+    margin-top: 1.263rem !important;
+    padding-bottom: 8.481rem;
+    width: 4.685rem;
+}
+.service-section{
+    margin-top: 1.625rem;
+}
+.service4 p {
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    font-size: 14px;
+    font-family: 'Noto Sans', serif;
+    line-height: 23px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+.service4 a{
+    margin-bottom: 2.4rem;
+    padding: 0.375rem 1rem;
+    font-size: 16px;
+    background-color: #1A1A1A;
+    font-family: 'Noto Sans', serif;
+    border: 2px solid #4E4E4E;
+}
+
+.service5{
+    background-image: url("../images/Component 1 – 1.png");
+    background-position: center;
+    border-radius: 25px;
+}
+.service6{
+    background-image: url("../images/ray.png");
+    background-position: center;
+    border-radius: 25px
+}
+.service7{
+    background-image: url("../images/sport_6.png");
+    background-position: center;
+    /*border: dotted;*/
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: none
+}
+.content-fixed{
+    margin-top: 15.375rem;
+}
+#about{
+
+}
+.about-content{
+    height: 35.363rem;
+}
+
+@media (min-width: 992px) {
+
+    .section{
+        margin: 0 10.694rem 1.956rem 10.694rem;
+    }
+    .section2-content{
+        margin: 0 10.694rem 1.956rem 10.694rem;
+        border-bottom: 2px solid #434343;
+    }
+    .about1-content{
+        border-bottom: 2px solid #4E4E4E;
+    }
+    #news{
+        width: 8.331rem;
+        height: 2.978rem;
+    }
+    .news-content{
+        font-size: 14px;
+        margin-top: 0;
+        padding-left: 1.813rem !important;
+    }
+    .content{
+        padding-top: 1.956rem;
+    }
+    .news-button{
+        margin: 1.606rem 0 0 0;
+    }
+    .banner img{
+        height: 29.188rem;
+    }
+    .section2{
+        margin-top: 2.756rem;
+    }
+    .service1{
+        background-image: url("../images/people.png");
+        padding-right: 0.375rem !important;
+        padding-left: 0 !important;
+        background-clip: content-box;
+    }
+    .service2{
+        padding-left: 0.375rem !important;
+        padding-right: 0 !important;
+        background-clip: content-box;
+        background-image: url("../images/Group 430.png ");
+        border-radius: 25px;
+    }
+    .service img{
+        margin-top: 5.2rem;
+    }
+    .service p {
+        margin-top: 2rem;
+        margin-bottom: 2.375rem;
+    }
+    .plus {
+        width: 4.224rem;
+        height: 4.224rem;
+        top:36%
+    }
+    .service3{
+        /*border: dotted;*/
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-right: none;
+        background-position: center;
+        border-top-right-radius: 0;
+    }
+    .service4{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-image: url("../images/Rectangle 66.png");
+        /*border: dotted;*/
+        border-left: none;
+    }
+    .service h4{
+        margin-top: 1.688rem;
+        font-size: 20px;
+    }
+    .service h5 {
+        font-size: 17px;
+        line-height: 20px
+    }
+    .service4 p {
+        margin-top: 1.013rem;
+        margin-bottom: 1.613rem;
+        font-size: 14px;
+        font-family: 'Noto Sans', serif;
+        line-height: 23px;
+        letter-spacing: 0.05rem;
+    }
+    .service4 a{
+        margin-bottom: 2rem;
+    }
+    .service-section{
+        margin-top: 0.756rem;
+    }
+    .point {
+        position: absolute;
+        left: 50%; /* this and below code for excellent centered */
+        transform:translateX(-50%);
+        z-index:2;
+        top:14%;
+        width: 83.33px;
+    }
+    .service5{
+        padding-right: 0.375rem !important;
+        padding-left: 0;
+        background-clip: content-box;
+    }
+    .service6{
+        padding-left: 0.375rem !important;
+        padding-right: 0;
+        background-clip: content-box;
+    }
+    .service7{
+        /*border: dotted;*/
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-image: url("../images/sport_6.png");
+        background-position: center;
+        border-right: none;
+        border-top-right-radius: 0;
+    }
+    .content-fixed{
+        margin-top: 12.188rem;
+    }
+    #about{
+
+    }
+    .about-content{
+        height: 35.363rem;
+    }
+}
