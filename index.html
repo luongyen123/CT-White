@@ -10,8 +10,8 @@
 </head>
 <body>
 <div class="container-fluid px-0 mx-0">
-    <header  class="cover-container fixed-top" id="nav-top">
-        <div class="row px-lg-0">
+    <header class="cover-container fixed-top" id="nav-top">
+        <div class="row px-lg-0 header-content">
             <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-start">
                 <a href="index.html"><img src="images/logo.png" class="logo"></a>
             </div>
@@ -35,20 +35,22 @@
                 <span class="content-new"><u>ジョコビッチ、年間四大大会全制覇を逃す…車いす部門で国枝慎吾が２年連続８度目の優勝<br>
                     体操銅・村上茉愛　好きな異性のタイプ「真面目で大人しい人、自分の真逆でちょうど」<br>
                     ストーサー/張組が全米OP女子複V 米の10代ペア下す</u></span>
+            </div>
+            <div class="col-12">
                 <button class="news-button">ニュース一覧</button>
             </div>
         </div>
     </div>
     <div class="banner">
-        <img src="images/map.png" class="d-none d-lg-block" />
-        <img src="images/map_mb.png" class="d-block d-lg-none" />
+        <img src="images/map.png" class="d-none d-md-block" />
+        <img src="images/map_mb.png" class="d-block d-md-none" />
     </div>
     <div class="content cover-container section2 text-right" id="services">
         <div class="section2-content row">
-            <div class="col-auto col-lg-auto px-lg-0 new-border">
+            <div class="col-auto col-md-auto px-lg-0 new-border">
                 <img src="images/services.png"  class="img-fluid">
             </div>
-            <div class="col-auto col-lg d-flex justify-content-lg-end section-label">
+            <div class="col-auto col-md d-flex justify-content-md-end section-label">
                 <span>Circular Technologies</span>
             </div>
             <hr class="w-100 d-lg-none d-block my-lg-0 my-0" style="margin-left: 15px; margin-right: 15px">
@@ -76,10 +78,10 @@
         <div class="row mx-0 position-relative service-section">
             <div class="col-12 col-lg-6 service3 service text-center text-white">
                 <div class="row service3-mobile">
-                    <div class="col-auto d-block d-lg-none text-left">
-                        <img src="images/point.png" class="point-mobile">
+                    <div class="col-12 d-block d-lg-none">
+                        <img src="images/point-mobile.png" class="point-mobile">
                     </div>
-                    <div class="col px-0 d-block d-lg-none text-left">
+                    <div class="col px-0 d-block d-lg-none">
                         <h4>Creative Direction & Planning</h4>
                         <h5>クリエイティブディレク<br />ション＆企画</h5>
                     </div>
@@ -97,10 +99,10 @@
     </div>
     <div class="content cover-container text-right">
         <div class="section2-content row">
-            <div class="col-auto col-lg-auto px-lg-0 new-border">
+            <div class="col-auto col-md-auto px-lg-0 new-border">
                 <img src="images/services.png"  class="img-fluid">
             </div>
-            <div class="col-auto col-lg d-flex justify-content-lg-end section-label">
+            <div class="col-auto col-md d-flex justify-content-md-end section-label">
                 <span>Circular Technologies</span>
             </div>
             <hr class="w-100 d-lg-none d-block my-lg-0 my-0" style="margin-left: 15px; margin-right: 15px">
@@ -128,10 +130,10 @@
         <div class="row mx-0 position-relative service-section">
             <div class="col-12 col-lg-6 service7 service text-center text-white">
                 <div class="row service3-mobile">
-                    <div class="col-auto d-block d-lg-none text-left">
-                        <img src="images/point.png" class="point-mobile">
+                    <div class="col-12 d-block d-lg-none">
+                        <img src="images/point-mobile.png" class="point-mobile">
                     </div>
-                    <div class="col px-0 d-block d-lg-none text-left">
+                    <div class="col px-0 d-block d-lg-none">
                         <h4>CHO</h4>
                         <h5>(Chief Health Officer／<br/>健康管理最高責任者)</h5>
                         <h5>育成・派遣</h5>
@@ -165,25 +167,22 @@
     <footer class="cover-container">
         <hr class="w-100 my-lg-0 my-0">
         <div class="row">
-            <div class="col-lg-1 d-none d-lg-block"></div>
-            <div class="col-lg-2 d-none d-lg-block logo-footer">
-                <img src="images/logo.png" />
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-12 col-lg-8 text-center text-lg-left pl-lg-4 menu">
+            <div class="col-12 col-md-12 text-center  menu">
                 <a id="news-link-footer" href="#news_menu" class="text-uppercase pr-4 pr-lg-5 news-link">NEWS</a>
                 <span class="pr-4 pr-lg-5">|</span>
                 <a id="services-link-footer" href="#services" class="text-uppercase pr-3 pr-lg-5">SERVICE</a>
                 <span class="pr-4 pr-lg-5">|</span>
                 <a id="about-link-footer" href="#about" class="text-uppercase">ABOUT US</a>
-                <a href="index.html"><img src="images/logo.png" class="d-inline d-lg-none mt-5" /></a>
+            </div>
+            <div class="col-12 text-center">
+                <a href="index.html"><img src="images/logo.png" class="" /></a>
                 <p class="copyright ml-lg-5 ml-0">© Circular Technologies Inc. All Rights Reserved</p>
             </div>
         </div>
     </footer>
 </div>
 <script type="text/javascript">
-    window.addEventListener("load", () => {
+    window.addEventListener("load", (event) => {
         document.querySelector("#news-link").addEventListener("click", e => {
             e.preventDefault();
             scroll(e);
@@ -208,10 +207,18 @@
             e.preventDefault();
             scroll(e);
         });
+        if (window.location.hash !== '')
+        {
+            this.scroll('', window.location.hash.substring(1))
+        }
     });
 
-    function scroll(e) {
-        var top = document.getElementById(e.target.getAttribute('href').substring(1)).offsetTop;
+    function scroll(e, id = '') {
+        if (id === '')
+        {
+            id = e.target.getAttribute('href').substring(1)
+        }
+        const top = document.getElementById(id).offsetTop;
         var sT = top - document.getElementById("nav-top").offsetHeight;
         console.log(sT)
         window.scrollTo(0, sT);

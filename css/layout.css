@@ -6,11 +6,12 @@ header a {
 }
 .menu a {
     color: #1A1A1A;
+    /*font-weight: bold;*/
 }
 .cover-container{
     background-color: #FFFFFF;
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
 }
 .logo{
     width: 11.563rem;
@@ -27,7 +28,7 @@ header a {
 }
 footer .menu {
     margin-top: 3.125rem;
-    margin-bottom: 8.5rem;
+    margin-bottom: 1.925rem;
     font-size: 16px;
     line-height: 24px;
 }
@@ -38,10 +39,31 @@ footer .menu {
 .logo-footer{
     margin-top: 3.469rem;
 }
+.show-hr{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+@media (min-width: 768px) {
+    .content-fixed {
+        margin-top: 1.6375rem;
+    }
+    .menu-content {
+        margin-top: 2rem;
+        margin-bottom:  1.313rem;
+    }
+}
 @media (min-width: 992px) {
+    .show-hr{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .cover-container{
-        padding-left: 2.5rem !important;
-        padding-right: 2.5rem !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .header-content{
+        margin-left: 4.688rem;
+        margin-right: 4.688rem;
     }
     .logo{
         margin-top: 3.310rem;
@@ -53,7 +75,7 @@ footer .menu {
     }
     footer .menu {
         margin-top: 6.313rem;
-        margin-bottom: 7.25rem;
+        margin-bottom: 2.469rem;
     }
     .logo-footer{
         margin-top: 3.469rem;
