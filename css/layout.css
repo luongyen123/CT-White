@@ -32,9 +32,10 @@ footer .menu {
     font-size: 16px;
     line-height: 24px;
 }
-.menu .copyright{
+.copyright{
     margin-top: 1.188rem;
     font-size: 13px;
+    line-height: 19px;
 }
 .logo-footer{
     margin-top: 3.469rem;
@@ -79,5 +80,8 @@ footer .menu {
     }
     .logo-footer{
         margin-top: 3.469rem;
+    }
+    .copyright{
+        margin-top: 1.656rem;
     }
 }
