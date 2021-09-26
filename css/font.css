@@ -18,3 +18,7 @@
     font-family: 'Noto Sans Medium';
     src: url(../font/Noto_Sans_JP/NotoSansJP-Medium.otf);
 }
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url(../font/Noto_Sans_JP/NotoSansJP-Regular.otf);
+}

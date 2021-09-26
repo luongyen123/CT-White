@@ -176,4 +176,7 @@ hr{
     .showcase-div{
         margin-top: 3.131rem;
     }
+    .sp-description {
+        text-align: center !important;
+    }
 }

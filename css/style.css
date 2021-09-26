@@ -159,8 +159,10 @@ hr {
     width: 122px;
     height: 75px;
 }
+.sp-description {
+    text-align: left;
+}
 @media (min-width: 992px) {
-
     .section{
         margin: 0 10.694rem 1.956rem 10.694rem;
     }
