@@ -107,7 +107,11 @@ hr{
     margin-left: 0;
     margin-right: 0;
 }
+.showcase-div{
+    margin-top: 3.319rem;
+}
 @media (min-width: 992px) {
+
     .section{
         margin-top: 3.863rem;
     }
@@ -168,5 +172,8 @@ hr{
     .showcase hr{
         margin-left: 0;
         margin-right:0;
+    }
+    .showcase-div{
+        margin-top: 3.131rem;
     }
 }
