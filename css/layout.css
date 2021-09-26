@@ -48,6 +48,9 @@ footer .menu {
     margin-left: 15px;
     margin-right: 15px;
 }
+.ft-14 {
+    font-size: 14px;
+}
 @media (min-width: 768px) {
     .content-fixed {
         margin-top: 1.6375rem;
