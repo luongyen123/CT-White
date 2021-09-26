@@ -278,7 +278,7 @@ hr {
         background-clip: content-box;
     }
     .service7{
-        /*border: dotted;*/
+        border: dotted;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         background-image: url("../images/sport_6.png");

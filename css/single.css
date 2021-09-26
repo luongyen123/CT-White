@@ -110,6 +110,10 @@ hr{
 .showcase-div{
     margin-top: 3.319rem;
 }
+.img-ft {
+    width: 122px;
+    height: 75px;
+}
 @media (min-width: 992px) {
 
     .section{
