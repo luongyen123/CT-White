@@ -1,6 +1,9 @@
 body{
     color: #1A1A1A;
 }
+body{
+    font-family: 'Noto Sans JP', serif;
+}
 header a {
     color: #1A1A1A;
 }
@@ -21,7 +24,7 @@ header a {
 }
 .menu-content{
     font-size: 16px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     line-height: 24px;
     margin-bottom: 1.313rem;
     margin-top: 2.481rem;
@@ -33,7 +36,8 @@ footer .menu {
     line-height: 24px;
 }
 .copyright{
-    margin-top: 1.188rem;
+    margin-top: 1.6rem;
+    margin-bottom: 3rem;
     font-size: 13px;
     line-height: 19px;
 }
@@ -82,6 +86,7 @@ footer .menu {
         margin-top: 3.469rem;
     }
     .copyright{
-        margin-top: 1.656rem;
+        margin-top: 2rem;
+        margin-bottom: 9rem;
     }
 }

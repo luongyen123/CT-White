@@ -1,20 +1,17 @@
-body{
-    font-family: 'Noto Sans Medium', serif;
-}
 hr {
     background-color: #434343;
 }
 .news-content{
     margin-top: 1.081rem;
     font-size: 13px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     line-height: 1.875rem;
 }
 .news-button{
     color: white;
     font-size: 16px;
     line-height: 30px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     background-color: #1A1A1A;
     border: none;
     padding: 0.375rem 1.3125rem;
@@ -32,7 +29,7 @@ hr {
     margin-top: 2.231rem;
 }
 .creative-text{
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     font-size: 23px;
 }
 .new-border{
@@ -66,7 +63,7 @@ hr {
 }
 .service p {
     font-size: 16px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     margin-top: 0.625rem;
     margin-bottom: 2.356rem;
     line-height: 23px;
@@ -116,7 +113,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1.8rem;
     font-size: 14px;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     line-height: 23px;
     display: inline-block;
     color: #FFFFFF;
@@ -126,7 +123,7 @@ hr {
     padding: 0.375rem 1rem;
     font-size: 16px;
     background-color: #4E4E4E;
-    font-family: 'Noto Sans', serif;
+    font-family: 'Noto Sans JP', serif;
     border: 2px solid white;
 }
 
@@ -155,13 +152,13 @@ hr {
 .content-fixed{
     margin-top: 15.375rem;
 }
-#about{
-
-}
 .about-content{
     height: 35.363rem;
 }
-
+.img-ft {
+    width: 122px;
+    height: 75px;
+}
 @media (min-width: 992px) {
 
     .section{
@@ -249,7 +246,7 @@ hr {
         margin-top: 1.013rem;
         margin-bottom: 1.613rem;
         font-size: 14px;
-        font-family: 'Noto Sans', serif;
+        font-family: 'Noto Sans JP', serif;
         line-height: 23px;
         letter-spacing: 0.05rem;
     }
@@ -289,9 +286,6 @@ hr {
     }
     .content-fixed{
         margin-top: 12.188rem;
-    }
-    #about{
-
     }
     .about-content{
         height: 35.363rem;
