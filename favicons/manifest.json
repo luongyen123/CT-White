@@ -3,7 +3,7 @@
 	"short_name":		"",
 	"description":		"",
 	"start_url":		"/",
-	"display":			"standalone",
+	"display":			"browser",
 	"orientation":		"any",
 	"background_color":	"#fff",
 	"theme_color":		"#fff",
