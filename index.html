@@ -109,7 +109,7 @@
                 <br class="d-block d-lg-none">
                 <a  href="policy.html" class="text-dark text-uppercase pr-2 pr-lg-3">PRIVACY POLICY</a>
                 <span class="pr-2 pr-lg-3">|</span>
-                <a id="about-link" href="about.html" class="text-dark text-uppercase">ABOUT US</a>
+                <a href="about.html" class="text-dark text-uppercase">ABOUT US</a>
             </div>
         </div>
         <hr class="w-100  my-lg-0 my-0">
@@ -264,7 +264,7 @@
                 <br class="d-block d-lg-none">
                 <a  href="policy.html" class="text-dark text-uppercase pr-3 pr-lg-5">PRIVACY POLICY</a>
                 <span class="pr-4 pr-lg-5">|</span>
-                <a id="about-link-footer" href="about.html" class="text-uppercase pr-4 pr-lg-0">ABOUT US</a>
+                <a href="about.html" class="text-uppercase pr-4 pr-lg-0">ABOUT US</a>
 
             </div>
             <div class="col-12 text-center">
@@ -292,14 +292,14 @@
             e.preventDefault();
             scroll(e);
         });
-        document.querySelector("#about-link-footer").addEventListener("click", e => {
-            e.preventDefault();
-            scroll(e);
-        });
-        document.querySelector("#about-link").addEventListener("click", e => {
-            e.preventDefault();
-            scroll(e);
-        });
+        // document.querySelector("#about-link-footer").addEventListener("click", e => {
+        //     e.preventDefault();
+        //     scroll(e);
+        // });
+        // document.querySelector("#about-link").addEventListener("click", e => {
+        //     e.preventDefault();
+        //     scroll(e);
+        // });
         if (window.location.hash !== '')
         {
             this.scroll('', window.location.hash.substring(1))
