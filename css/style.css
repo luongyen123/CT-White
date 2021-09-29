@@ -47,15 +47,15 @@ hr {
     padding-bottom: 1.688rem;
 }
 .service1{
-    background-image: url("../images/people.png");
+    background-image: url("../images/bg-1.png");
     background-size: cover;
     border-radius: 25px;
     margin-bottom: 0.284rem;
 }
 .service2{
-    background-image: url("../images/Group 430.png ");
+    background-image: url("../images/bg-2.png");
     border-radius: 25px;
-    background-size: cover;
+    /*background-size: cover;*/
     margin-top: 0.2844rem;
 }
 .service img{
@@ -78,7 +78,7 @@ hr {
     top:46%
 }
 .service3{
-    background-image: url("../images/Group 429.png");
+    background-image: url("../images/bg-5.png");
     border: dotted;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -128,26 +128,26 @@ hr {
 }
 
 .service5{
-    background-image: url("../images/Component 1 – 1.png");
-    background-position: center;
+    background-image: url("../images/bg-4.png");
+    /*background-position: center;*/
     border-radius: 25px;
     margin-bottom: 0.284rem;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 .service6{
-    background-image: url("../images/ray.png");
+    background-image: url("../images/bg-3.png");
     background-position: center;
     border-radius: 25px;
     margin-top: 0.284rem;
     background-size: cover;
 }
 .service7{
-    background-image: url("../images/sport_6.png");
+    background-image: url("../images/bg-6.png");
     background-position: center;
     border: dotted;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    border-bottom: none
+    border-bottom: none;
 }
 .content-fixed{
     margin-top: 15.375rem;
@@ -195,7 +195,6 @@ hr {
         margin-top: 2.756rem;
     }
     .service1{
-        background-image: url("../images/people.png");
         padding-right: 0.375rem !important;
         padding-left: 0 !important;
         background-clip: content-box;
@@ -205,7 +204,6 @@ hr {
         padding-left: 0.375rem !important;
         padding-right: 0 !important;
         background-clip: content-box;
-        background-image: url("../images/Group 430.png ");
         border-radius: 25px;
         margin-top: 0;
     }
@@ -217,8 +215,8 @@ hr {
         margin-bottom: 2.375rem;
     }
     .plus {
-        width: 9rem;
-        height: 9rem;
+        width: 7.25rem;
+        height: 7.25rem;
         top:36%
     }
     .service3{
@@ -264,7 +262,7 @@ hr {
         left: 50%; /* this and below code for excellent centered */
         transform:translateX(-50%);
         z-index:2;
-        top:14%;
+        top:30%;
         width: 83.33px;
     }
     .service5{
@@ -281,7 +279,7 @@ hr {
         border: dotted;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
-        background-image: url("../images/sport_6.png");
+        background-image: url("../images/bg-6.png");
         background-position: center;
         border-right: none;
         border-top-right-radius: 0;
@@ -290,6 +288,6 @@ hr {
         margin-top: 12.188rem;
     }
     .about-content{
-        height: 35.363rem;
+        height: 11.775rem;
     }
 }

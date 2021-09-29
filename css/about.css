@@ -1,0 +1,34 @@
+.group p{
+    font-size: 19px;
+    letter-spacing: 0.05rem;
+    line-height: 20px;
+    font-family: 'Noto Sans Medium', serif;
+}
+.bg-header{
+    padding: 6px 30px 6px 19px;
+    background-image: url("../images/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 19px;
+    letter-spacing: 0.05rem;
+    line-height: 20px;
+    font-family: 'Noto Sans Medium', serif;
+}
+@media (min-width: 992px) {
+    .group p{
+        font-size: 19px;
+        letter-spacing: 0.05rem;
+        line-height: 20px;
+        font-family: 'Noto Sans Medium', serif;
+    }
+    .bg-header{
+        padding: 6px 30px 6px 19px;
+        background-image: url("../images/bg-header.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size: 19px;
+        letter-spacing: 0.05rem;
+        line-height: 20px;
+        font-family: 'Noto Sans Medium', serif;
+    }
+}
