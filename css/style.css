@@ -118,11 +118,10 @@
 }
 .service4 a{
     margin-bottom: 2.4rem;
-    /*padding: 0.375rem 1rem;*/
     font-size: 16px;
-    /*background-color: #4E4E4E;*/
-    /*font-family: 'Noto Sans JP', serif;*/
-    /*border: 2px solid white;*/
+    display: inline-block;
+}
+.service4 a:focus{
 }
 .service4 a img{
     width: 235px;
