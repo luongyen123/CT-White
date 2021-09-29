@@ -1,8 +1,10 @@
 body{
     color: #1A1A1A;
-}
-body{
     font-family: 'Noto Sans JP', serif;
+}
+
+hr {
+    background-color: #434343;
 }
 header a {
     color: #1A1A1A;
